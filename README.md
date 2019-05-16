@@ -24,9 +24,13 @@ For now the difference from recent mugshot(0.4.1) just is:
 ## System Install
 - First install all the dependencies
 - Clone this repo
-`git clone https://github.com/ekickx/mugshot-git.git`
+```
+git clone https://github.com/ekickx/mugshot-git.git
+```
 - Enter directory
-`cd mugshot-git`
+```
+cd mugshot-git
+```
 - Build and install
 ```
 python3 setup.py build
@@ -35,11 +39,17 @@ sudo python3 setup.py install
 ## Virtual Environment Install (Development)
 Virtualenv is a tool which allows us to make isolated python environments. It prevents `mugshot` to break your system if something goes wrong
 - First install virtualenv and pip
-`sudo apt install virtualenv python3-virtualenv python3-pip`
+```
+sudo apt install virtualenv python3-virtualenv python3-pip
+```
 - Clone this repo
-`git clone https://github.com/ekickx/mugshot-git.git`
+```
+git clone https://github.com/ekickx/mugshot-git.git
+```
 - Enter directory
-`cd mugshot-git`
+```
+cd mugshot-git
+```
 - Create and activate virtualenv
 ```
 virtualenv -p python3 virtual_env
@@ -53,7 +63,9 @@ python python-distutils-extra-2.39/setup.py
 rm -r python-distutils-extra-2.39
 ```
 - Install the rest dependencies
-`pip install pygobject pexpect dbus-python`
+```
+pip install pygobject pexpect dbus-python
+```
 - Build and install
 ```
 python setup.py build
