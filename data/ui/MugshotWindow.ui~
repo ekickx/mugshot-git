@@ -157,8 +157,12 @@
             </child>
           </object>
         </child>
-        <child type="label_item">
-          <placeholder/>
+        <child type="label">
+          <object class="GtkLabel" id="label13">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Shape</property>
+          </object>
         </child>
       </object>
       <packing>
