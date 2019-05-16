@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014-2018 Sean Davis <smd.seandavis@gmail.com> -->
+<component type="desktop">
+  <id>mugshot.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Mugshot</name>
+  <_summary>Lightweight user configuration</_summary>
+
+  <description>
+    <_p>
+    Mugshot enables users to easily update personal contact information.
+    With Mugshot, users are able to:
+    </_p>
+    <ul>
+        <_li>Set the account photo displayed at login and optionally synchronize
+        this photo with their Pidgin buddy icon</_li>
+        <_li>Set account details stored in /etc/passwd (usable with the finger
+        command) and optionally synchronize with their LibreOffice contact
+        information</_li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default" height="360" width="640">
+      <image>https://screenshots.bluesabre.org/mugshot/mugshot.png</image>
+    </screenshot>
+    <screenshot height="360" width="640">
+      <image>https://screenshots.bluesabre.org/mugshot/mugshot-pidgin-sync.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://launchpad.net/mugshot/</url>
+  <url type="bugtracker">https://bugs.launchpad.net/mugshot/</url>
+  <url type="help">https://wiki.bluesabre.org/doku.php?id=mugshot-docs</url>
+  <url type="translate">https://translations.launchpad.net/mugshot</url>
+
+  <update_contact>bluesabre@ubuntu.com</update_contact>
+
+  <translation type="gettext">mugshot</translation>
+
+  <provides>
+    <binary>mugshot</binary>
+  </provides>
+
+  <releases>
+    <release version="0.4.1" date="2018-08-08">
+      <description>
+        <_p>This release includes a number of code quality improvements,
+        bug fixes, and translations. Mugshot can now be built and run
+        in a minimal chroot environment.
+        </_p>
+      </description>
+    </release>
+
+    <release version="0.4.0" date="2018-04-11">
+      <description>
+        <_p>This stable release adds support for the latest GTK and
+        GStreamer technologies.
+        </_p>
+      </description>
+    </release>
+
+    <release version="0.3.2" date="2016-11-02">
+      <description>
+        <_p>This development release restores camera dialog functionality
+        that with recent software versions.
+        </_p>
+      </description>
+    </release>
+
+    <release version="0.3.1" date="2016-03-31">
+      <description>
+        <_p>This development release fixes a large number of bugs from
+        previous releases. User properties that cannot be edited are
+        now restricted to administrative users.
+        </_p>
+      </description>
+    </release>
+
+    <release version="0.3.0" date="2015-09-07">
+      <description>
+        <_p>This development release upgrades the camera dialog to use
+        Cheese and Clutter to display and capture the camera feed.
+        </_p>
+      </description>
+    </release>
+
+    <release version="0.2.5" date="2014-09-01">
+      <description>
+        <_p>This stable release improves Mugshot functionality for LDAP users,
+        and includes the latest SudoDialog, improving the appearance and
+        usability of the password dialog.
+        </_p>
+      </description>
+    </release>
+
+  </releases>
+
+</component>

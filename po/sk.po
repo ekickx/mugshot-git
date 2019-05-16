@@ -1,0 +1,256 @@
+# Slovak translation for mugshot
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the mugshot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mugshot\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-04-26 05:42+0000\n"
+"PO-Revision-Date: 2015-12-04 13:28+0000\n"
+"Last-Translator: Miro Janosik <miro.janosik.geo@gmail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-04-27 05:47+0000\n"
+"X-Generator: Launchpad (build 18623)\n"
+
+#: ../mugshot.desktop.in.h:1
+msgid "About Me"
+msgstr "O mne"
+
+#: ../mugshot.desktop.in.h:2
+msgid "Configure your profile image and contact details"
+msgstr "Upravte si svoj profilový obrázok a kontaktné informácie"
+
+#: ../data/ui/CameraMugshotDialog.ui.h:1
+msgid "Capture - Mugshot"
+msgstr "Zachytenie obrázka - Mugshot"
+
+#: ../data/ui/MugshotWindow.ui.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Náhľad</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:2
+msgid "Center"
+msgstr "Na stred"
+
+#: ../data/ui/MugshotWindow.ui.h:3
+msgid "Left"
+msgstr "Vľavo"
+
+#: ../data/ui/MugshotWindow.ui.h:4
+msgid "Right"
+msgstr "Vpravo"
+
+#: ../data/ui/MugshotWindow.ui.h:5
+msgid "<b>Crop</b>"
+msgstr "<b>Orezať</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:6
+msgid "Select from stock…"
+msgstr "Vybrať z predvolených..."
+
+#: ../data/ui/MugshotWindow.ui.h:7
+msgid "Capture from camera…"
+msgstr "Zachytiť z kamery..."
+
+#: ../data/ui/MugshotWindow.ui.h:8
+msgid "Browse…"
+msgstr "Vybrať..."
+
+#: ../data/ui/MugshotWindow.ui.h:9 ../mugshot/MugshotWindow.py:566
+msgid "Mugshot"
+msgstr "Mugshot"
+
+#: ../data/ui/MugshotWindow.ui.h:10
+msgid "<b>First Name</b>"
+msgstr "<b>Krstné meno</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:11
+msgid "<b>Last Name</b>"
+msgstr "<b>Priezvisko</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:12
+msgid "<b>Initials</b>"
+msgstr "<b>Iniciály</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:13
+msgid "<b>Home Phone</b>"
+msgstr "<b>Telefón domov</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:14
+msgid "<b>Email Address</b>"
+msgstr "<b>E-mailová adresa</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:15
+msgid "<b>Office Phone</b>"
+msgstr "<b>Telefón do práce</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:16
+msgid "<b>Fax</b>"
+msgstr "<b>Fax</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:17
+msgid "Select a photo…"
+msgstr "Vybrať fotografiu..."
+
+#: ../mugshot/__init__.py:36
+msgid "Show debug messages (-vv debugs mugshot_lib also)"
+msgstr "Zobraz ladiace správy (-vv pre ladenie aj mugshot_lib)"
+
+#. Set the record button to retry, and disable it until the capture
+#. finishes.
+#: ../mugshot/CameraMugshotDialog.py:268
+msgid "Retry"
+msgstr "Skúsiť znova"
+
+#: ../mugshot/MugshotWindow.py:343
+msgid "Authentication cancelled."
+msgstr "Overenie totožnosti zrušené."
+
+#: ../mugshot/MugshotWindow.py:346
+msgid "Authentication failed."
+msgstr "Overenie totožnosti zlyhalo."
+
+#: ../mugshot/MugshotWindow.py:349
+msgid "An error occurred when saving changes."
+msgstr "Chyba pri ukladaní zmien."
+
+#: ../mugshot/MugshotWindow.py:351
+msgid "User details were not updated."
+msgstr "Informácie užívateľa neboli zmenené."
+
+#: ../mugshot/MugshotWindow.py:453
+msgid "Update Pidgin buddy icon?"
+msgstr "Upraviť aj ikonu v Pidgine?"
+
+#: ../mugshot/MugshotWindow.py:454
+msgid "Would you also like to update your Pidgin buddy icon?"
+msgstr "Má sa upraviť Vaša ikona v zozname priateľov v Pidgine?"
+
+#: ../mugshot/MugshotWindow.py:567
+msgid "Enter your password to change user details."
+msgstr "Pre zmenu údajov zadajte vaše heslo."
+
+#: ../mugshot/MugshotWindow.py:569
+msgid ""
+"This is a security measure to prevent unwanted updates\n"
+"to your personal information."
+msgstr ""
+"Toto je bezpečnostný prvok ktorý má zabrániť nechceným\n"
+"zmenám vo vašich súkromných údajoch."
+
+#: ../mugshot/MugshotWindow.py:820
+msgid "Update LibreOffice user details?"
+msgstr "Nastaviť užívateľské informácie aj v LibreOffice?"
+
+#: ../mugshot/MugshotWindow.py:821
+msgid "Would you also like to update your user details in LibreOffice?"
+msgstr ""
+"Chcete aby sa tieto užívateľské informácie nastavili aj v LibreOffice?"
+
+#: ../mugshot_lib/SudoDialog.py:124
+msgid "Password Required"
+msgstr "Požadované heslo"
+
+#: ../mugshot_lib/SudoDialog.py:161
+msgid "Incorrect password... try again."
+msgstr "Heslo nesprávne... skúste znovu."
+
+#: ../mugshot_lib/SudoDialog.py:171
+msgid "Password:"
+msgstr "Heslo:"
+
+#. Buttons
+#: ../mugshot_lib/SudoDialog.py:182
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../mugshot_lib/SudoDialog.py:185
+msgid "OK"
+msgstr "Áno"
+
+#: ../mugshot_lib/SudoDialog.py:206
+msgid ""
+"Enter your password to\n"
+"perform administrative tasks."
+msgstr ""
+"Pre tento administratívny\n"
+"úkon musíte zadať vaše heslo."
+
+#: ../mugshot_lib/SudoDialog.py:208
+#, python-format
+msgid ""
+"The application '%s' lets you\n"
+"modify essential parts of your system."
+msgstr ""
+"Program '%s' Vám dovoľuje\n"
+"meniť dôležité časti Vášho systému."
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:1
+msgid "Lightweight user configuration"
+msgstr "Hlavné nastavenia užívateľa"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:2
+msgid ""
+"Mugshot enables users to easily update personal contact information. With "
+"Mugshot, users are able to:"
+msgstr ""
+"S Mugshot si môže používateľ jednoducho upraviť kontaktné údaje. S Mugshot "
+"používatelia môžu:"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:3
+msgid ""
+"Set the account photo displayed at login and optionally synchronize this "
+"photo with their Pidgin buddy icon"
+msgstr ""
+"Nastaviť obrázok svojho účtu ktorý sa zobrazí pri prihlasovaní. a možnosť ho "
+"synchronizovať s ikonou v Pidgine"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:4
+msgid ""
+"Set account details stored in /etc/passwd (usable with the finger command) "
+"and optionally synchronize with their LibreOffice contact information"
+msgstr ""
+"Nastaviť údaje účtu uložené v /etc/passwd (pre použitie s príkazom finger) a "
+"možnosť synchronizovať ich s kontaktnými údajmi v LibreOffice"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:5
+msgid ""
+"This stable release adds support for the latest GTK and GStreamer "
+"technologies."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:6
+msgid ""
+"This development release restores camera dialog functionality that with "
+"recent software versions."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:7
+msgid ""
+"This development release fixes a large number of bugs from previous "
+"releases. User properties that cannot be edited are now restricted to "
+"administrative users."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:8
+msgid ""
+"This development release upgrades the camera dialog to use Cheese and "
+"Clutter to display and capture the camera feed."
+msgstr ""
+"Táto verzia programu zlepšuje kamerové okno použitím knižníc Cheese a "
+"Clutter na zobrazenie obrazu z kamery."
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:9
+msgid ""
+"This stable release improves Mugshot functionality for LDAP users, and "
+"includes the latest SudoDialog, improving the appearance and usability of "
+"the password dialog."
+msgstr ""
+"Táto stabilná verzia vylepšuje funkcionalitu Mugshotu pre užívateľov LDAP, "
+"obsahuje nový SudoDialog, zlepšuje vzhľad a použiteľnosť dialógu na zadanie "
+"hesla."

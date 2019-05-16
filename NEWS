@@ -1,0 +1,143 @@
+Mugshot                                                                    NEWS
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+08 Aug 2018, Mugshot 0.4.1
+
+- New stable release
+- Code Quality:
+  . Replaced deprecated logger.warn with logger.warning
+  . Replaced deprecated module optparse with argparse
+  . Resolved Pylint and PEP8 errors and warnings
+- Bugs fixed:
+  . TypeError in _spawn(): The argument, args, must be a list (LP: #1443283)
+  . User-specified initials are not correctly loaded (LP: #1574239)
+  . Include Mugshot in Xfce Settings, Personal Settings (LP: #1698626)
+  . Support "-p" and "-w" office phone flags in chfn (LP: #1699285)
+  . FileNotFoundError when comparing profile images (LP: #1771629)
+- Fixes in minimal chroot environment:
+  . Fix crash when run without AccountsService
+  . Handle OSError: out of pty devices
+  . Specify utf-8 codec for desktop file processing (setup.py)
+- Translation Updates:
+  . Catalan, Chinese (Simplified), Danish, Lithuanian, Spanish
+
+
+11 Apr 2018, Mugshot 0.4.0
+
+- New stable release
+- General:
+  . Update URLs from smdavis.us to bluesabre.org
+  . Upgrade appdata file to latest spec
+  . Move appdata to metainfo, per latest spec
+- Translation Updates:
+  . Catalan, Croatian, Danish, Lithuanian, Romanian, Spanish, Swedish
+
+
+02 Nov 2016, Mugshot 0.3.2
+
+- New bugfix release
+  . Mugshot's camera dialog is fixed and should work on all previously
+    supported and current systems!
+
+
+31 Mar 2016, Mugshot 0.3.1
+
+- New bugfix release
+  . This release targets a number of bugs that were discovered in past
+    releases. To better handle user properties, AccountsService is now
+    better utilized when it is available.
+- Bugs fixed:
+  . Failure in extracting details from /etc/passwd (LP: #1304920)
+  . Failed reading of /etc/passwd with empty values (LP: #1394064)
+  . Crash when ~/.face is empty or invalid (LP: #1400055)
+  . Crash when unable to read LibreOffice config (LP: #1557744)
+  . Incorrect handling of empty name fields (LP: #1559815)
+- Known issues:
+  . Mugshot's camera dialog no longer works with recent versions of
+    Clutter. This is due to a change in the video sink and requires
+    a larger fix.
+
+
+07 Sep 2015, Mugshot 0.3.0
+
+- New development release
+  . As GTK and GStreamer continue to evolve, mugshot's camera was no longer
+    able to keep up in its current form. It now uses Cheese and Clutter to
+    display the video feed and capture photos.
+  . New optional requirements for cameras: Cheese, Clutter, and GtkClutter
+- Bugs fixed:
+  . Camera doesn't initialize (LP: #1414443)
+- Known issues:
+  . Some users may find that Mugshot freezes when capturing a photo. This
+    is a known issue in Clutter that seems to affect other applications as
+    well (LP: #1462445)
+
+
+01 Sep 2014, Mugshot 0.2.5
+
+- General
+  . Fixes startup and improves usability for LDAP users and other users
+    where user details are not properly parsed (LP: #1353530)
+  . Include latest SudoDialog
+
+
+02 Aug 2014, Mugshot 0.2.4
+
+- General
+  . Add AppData files
+  . Upgrade license from GPL3 to GPL3+
+- Bugs fixed:
+  . Mugshot does not correctly expand user details (LP: #1310634)
+  . Remove hard dependency on AccountsService (LP: #1311938)
+  . Fix timeout by using non-interactive chfn (LP: #1315709)
+
+
+04 Apr 2014, Mugshot 0.2.3
+
+- General:
+  . Check if user has sudo rights, disable first/last name change if not
+  . Populate the Initials field based on first/last name fields
+  . Hide "Remove" when there is no profile image set
+  . Cleanup temporary files when closed
+  . Package is now 100% PEP8-compliant
+- AccountsService:
+  . Scale images on save to accomodate AccountsService max size
+  . Use AccountsService profile image if ~/.face does not exist
+  . Sync AccountsService profile image to ~/.face
+- Bugs fixed:
+  . mugshot is unable to store profile picture (LP: #1298665)
+
+
+09 Mar 2014, Mugshot 0.2.2
+
+- General:
+  . Fixed crash when saving user details with a non-English locale
+  . Fixed apparently untranslated dialog
+  . Updated translations
+- Bugs fixed:
+  . Fix crash with IndexError in init_user_details (LP: #1287468)
+
+
+02 Mar 2014, Mugshot 0.2.1
+
+- General:
+  . Fixed typo that incorrectly hid the manual photo browser instead of stock
+  . Use GLib for better environment and user settings detection
+  . Use the SudoDialog developed for Catfish to better receive password
+  . Correctly stop processing updates if password was incorrectly entered
+- Bugs fixed:
+  . Add option to remove current profile picture (LP: #1286897)
+  . Add AccountsService support to set profile picture (LP: #1273896)
+  . mugshot fails at attempt to change avatar (LP: #1284720)
+
+
+25 Jan 2014, Mugshot 0.2
+
+- General:
+  . Mugshot is now designed for use with only Python 3.
+  . Dependency on yelp/ghelp has been removed.
+  . Packaging has been simplified.
+
+
+27 Jul 2013, Mugshot 0.1
+
+- Initial release.

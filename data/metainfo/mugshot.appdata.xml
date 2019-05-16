@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>mugshot.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Mugshot</name>
+  <summary>Lightweight user configuration</summary>
+  <summary xml:lang="ca">Configuració d'usuari mínima</summary>
+  <summary xml:lang="cs">Jednoduché uživatelské nastavení</summary>
+  <summary xml:lang="da">Letvægts brugerkonfiguration</summary>
+  <summary xml:lang="de">Einfache Nutzerkonfiguration</summary>
+  <summary xml:lang="es">Configuración de usuario mínima</summary>
+  <summary xml:lang="fi">Kevyt käyttäjätietojen muokkain</summary>
+  <summary xml:lang="fr">Configuration d'utilisateur minimale</summary>
+  <summary xml:lang="hr">Laka korisnička konfiguracija</summary>
+  <summary xml:lang="it">Semplice configurazione degli utenti</summary>
+  <summary xml:lang="lt">Supaprastintas naudotojo konfigūravimas</summary>
+  <summary xml:lang="nl">Lichtgewicht hulpmiddel voor gebruikersinstellingen</summary>
+  <summary xml:lang="pl">Lekka konfiguracja użytkownika</summary>
+  <summary xml:lang="pt">Configuração de utilizador leve</summary>
+  <summary xml:lang="ru">Ресусрсоэффективная (Lightweight) пользовательская конфигурация.</summary>
+  <summary xml:lang="sk">Hlavné nastavenia užívateľa</summary>
+  <summary xml:lang="sv">Resurssnål användarinställning</summary>
+  <summary xml:lang="zh_CN">轻量级用户配置</summary>
+
+  <description>
+    <p>Mugshot enables users to easily update personal contact information. With Mugshot, users are able to:</p>
+    <p xml:lang="ca">El Mugshot permet als usuaris actualitzar fàcilment la informació de contacte personal. Amb el Mugshot els usuaris són capaços de:</p>
+    <p xml:lang="cs">Mugshot umožňuje uživatelům snadno aktualizovat osobní kontaktní informace. S Mugshotem jsou uživatelé schopni:</p>
+    <p xml:lang="da">Mugshot gør det muligt for brugere at opdatere personlig kontaktinformation. Med Mugshot kan brugere:</p>
+    <p xml:lang="de">Mugshot ermöglicht es Benutzern, auf einfache Weise persönliche Informationen zu ändern. Mit Mugshot können Sie:</p>
+    <p xml:lang="el">Η εφαρμογή Mugshot επιτρέπει στους χρήστες να ενημερώνουν πληροφορίες προσωπικών επαφών με ευκολία. Με το Mugshot , οι χρήστες είναι σε θέση:</p>
+    <p xml:lang="es">Mugshot permite a los usuarios actualizar fácilmente la información de contacto personal. Con Mugshot los usuarios son capaces de:</p>
+    <p xml:lang="fi">Mugshotin avulla käyttäjät voivat päivittää henkilökohtaisia yhteystietoja helposti. Mugshotin avulla käyttäjät voivat:</p>
+    <p xml:lang="fr">Mugshot permet aux utilisateurs de mettre facilement à jour leurs coordonnées personnelles. Avec Mugshot, les utilisateurs peuvent :</p>
+    <p xml:lang="it">Mugshot consente agli utenti di aggiornare facilmente le informazioni personali di contatto. Con Mugshot, gli utenti possono:</p>
+    <p xml:lang="lt">Mugshot įgalina naudotojus lengvai atnaujinti asmeninę kontaktinę informaciją. Su Mugshot, naudotojai gali:</p>
+    <p xml:lang="nl">Mugshot stelt gebruikers in staat om eenvoudig persoonlijke contactpersooninformatie bij te werken. Met Mugshot kunnen gebruikers:</p>
+    <p xml:lang="pl">Mugshot umożliwia użytkownikom łatwą aktualizację osobistych informacji kontaktowych. Z Mugshot użytkownicy mogą:</p>
+    <p xml:lang="pt">O Mugshot permite aos utilizadores actualizar facilmente as informações de contato pessoal. Com o Mugshot, os utilizadores são capazes de:</p>
+    <p xml:lang="ru">Mugshot позволяет пользователям легко обновлять личную контактную информацию . С Mugshot , пользователи могут:</p>
+    <p xml:lang="sk">S Mugshot si môže používateľ jednoducho upraviť kontaktné údaje. S Mugshot používatelia môžu:</p>
+    <p xml:lang="sv">Mugshot tillåter användare att enkelt uppdatera personlig kontaktinformation. Med Mugshot kan användare:</p>
+    <p xml:lang="zh_CN">Mugshot 使用户可以轻松更新个人联系信息。 通过 Mugshot，用户可以：</p>
+    <ul>
+        <li>Set the account photo displayed at login and optionally synchronize this photo with their Pidgin buddy icon</li>
+        <li xml:lang="ca">Configurar la imatge d'usuari que es mostra en la pantalla d'inici de sessió i, opcionalment, sincronitzar aquesta imatge amb la icona d'usuari de Pidgin</li>
+        <li xml:lang="cs">Nastavit fotografii účtu, která se bude zobrazovat při přihlášení a případně ji nastavit jako ikonu v IM Pidgin</li>
+        <li xml:lang="da">Sæt kontoens billede som vises ved login og synkroniser valgfrit dette billede med deres Pidgin venneikon</li>
+        <li xml:lang="de">Das Profilfoto, das beim Anmelden angezeigt wird, einstellen und es optional mit dem Pidgin-Frundesymbol synchronisieren.</li>
+        <li xml:lang="el">Να ορίσουν τη φωτογραφία λογαριασμού που εμφανίζεται στην οθόνη υποδοχής και προαιρετικά να συγχρονίσουν αυτή τη φωτογραφία με το εικονίδιο του Pidgin buddy.</li>
+        <li xml:lang="es">Configurar la imagen de usuario que se muestra en la pantalla de inicio de sesión y, opcionalmente, sincronizar esta imagen con el icono de usuario de Pidgin</li>
+        <li xml:lang="fi">Asettaa tilin valokuvan, joka näytetään kirjautumisikkunassa ja valinnaisesti synkronoida tämän kuvan Pidginin kaverikuvakkeekseen</li>
+        <li xml:lang="fr">Définir la photo qui sera affichée pour la connexion à leur session et éventuellement synchroniser cette photo avec l'icône de leur compte Pidgin.</li>
+        <li xml:lang="it">Impostare la foto dell'account mostrata al login ed opzionalmente sincronizzare questa foto con il proprio avatar Pidgin</li>
+        <li xml:lang="lt">Nustatyti, prisijungimo metu rodomą, paskyros nuotrauką ir pasirinktinai sinchronizuoti šią nuotrauką su savo Pidgin naudotojo paveiksliuku</li>
+        <li xml:lang="nl">Stel de accountfoto in die getoond wordt bij aanmelding en synchroniseer deze foto desgewenst met hun Pidgin-pictogram</li>
+        <li xml:lang="pl">Ustawić obraz konta wyświetlany podczas logowania i opcjonalnie synchronizowany ze swoją ikoną dla znajomych w Pidgin</li>
+        <li xml:lang="pt">Definir a fotografia exibida na conta de início de sessão e opcionalmente sincronizar essa fotografia com o seu ícone de amigo no Pidgin</li>
+        <li xml:lang="ru">Установить фото профиля, отображаемое в окне входа, и опционально синхронизировать это фото с Pidgin.</li>
+        <li xml:lang="sk">Nastaviť obrázok svojho účtu ktorý sa zobrazí pri prihlasovaní. a možnosť ho synchronizovať s ikonou v Pidgine</li>
+        <li xml:lang="sv">Ställa in fotot för kontot som visas vid inloggning och valfritt synkronisera detta foto med sin Pidgin buddy ikon</li>
+        <li xml:lang="zh_CN">设置登录时显示的帐户照片，并可选择将此照片与其 Pidgin 好友图标同步</li>
+        <li>Set account details stored in /etc/passwd (usable with the finger command) and optionally synchronize with their LibreOffice contact information</li>
+        <li xml:lang="ca">Configurar les dades d'usuari emmagatzemades a /etc/passwd (accessibles amb l'ordre finger) i, opcionalment, sincronitzar-les amb la informació de contacte del LibreOffice</li>
+        <li xml:lang="cs">Nastavit detaily účtu v souboru /etc/passwd (použitelné s příkazem finger) a případně synchronizovat s jejich LibreOffice kontaktními informacemi</li>
+        <li xml:lang="da">Sæt kontodetaljer lagret i /etc/passwd (typisk med finger-kommandoen) og synkroniser valgfrit med deres LibreOffice kontaktinformation</li>
+        <li xml:lang="de">Kontodetails, die in /etc/passwd gespeichert werden einstellen und optional mit den LibreOffice-Kontaktinformationen synchronisieren.</li>
+        <li xml:lang="el">Να ορίσουν τις λεπτομέρειες λογαριασμού που είναι απόθηκευμένες στο /etc/passwd (μπορεί να χρησιμοποιηθεί με την εντολή finger) και προαιρετικά να τις συγχρονίσουν με τις πληροφορίες επαφής του LibreOffice</li>
+        <li xml:lang="es">Configurar los datos de usuario almacenados en /etc/passwd (accesibles con la orden finger) y, opcionalmente, sincronizarlos con la información de contacto de LibreOffice</li>
+        <li xml:lang="fi">Asettaa tilin ominaisuuksia, joita säilytetään tiedostossa /etc/passwd (käytettävissä finger-komennolla) ja valinnaisesti synkronoida nämä tiedot LibreOfficen tietojen kanssa</li>
+        <li xml:lang="fr">Définir les détails de leur compte dans /etc/passwd (utilisable avec la commande finger) and éventuellement le synchroniser avec leurs informations de contact LibreOffice.</li>
+        <li xml:lang="it">Impostare i dettagli dell'account salvati in /etc/passwd (utilizzabile con il comando finger) ed opzionalmente sincronizzarli con le informazioni di contatto di LibreOffice</li>
+        <li xml:lang="lt">Nustatyti išsamesnę paskyros informaciją, laikomą /etc/passwd (naudojama su finger komanda) ir pasirinktinai sinchronizuoti su LibreOffice kontaktine informacija.</li>
+        <li xml:lang="nl">Stel accountbijzonderheden in die zijn opgeslagen in /etc/passwd (te gebruiken met de opdracht 'finger') en synchroniseer desgewenst met hun contactpersooninformatie in Libre Office.</li>
+        <li xml:lang="pl">Ustawić szczegóły konta przechowywane w /etc/passwd (dogodne przy ręcznych poleceniach) i opcjonalnie synchronizowane ze swoimi informacjami kontaktowymi w LibreOffice</li>
+        <li xml:lang="pt">Defina os detalhes da conta armazenados em /etc/passwd (utilizáveis ​​com o comando finger) e opcionalmente sincronize com as suas informações de contato do LibreOffice</li>
+        <li xml:lang="ru">Установить детали профиля, хранимые в /etc/passwd (удобно в использовании с командой finger), и опционально синхронизировать эту контактную информацию с Libreoffice.</li>
+        <li xml:lang="sk">Nastaviť údaje účtu uložené v /etc/passwd (pre použitie s príkazom finger) a možnosť synchronizovať ich s kontaktnými údajmi v LibreOffice</li>
+        <li xml:lang="sv">Ställa in detaljer som sparas i /etc/passwd (går att använda med fingerkommandot) och valfritt synkronisera med sin kontaktinformation i LibreOffice</li>
+        <li xml:lang="zh_CN">设置存储在 / etc / passwd 中的帐户详细信息（可与 finger 命令一起使用），并可选择与其 LibreOffice 联系信息同步</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot width="640" type="default" height="360">
+      <image>https://screenshots.bluesabre.org/mugshot/mugshot.png</image>
+    </screenshot>
+    <screenshot width="640" height="360">
+      <image>https://screenshots.bluesabre.org/mugshot/mugshot-pidgin-sync.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://launchpad.net/mugshot/</url>
+  <url type="bugtracker">https://bugs.launchpad.net/mugshot/</url>
+  <url type="help">https://wiki.bluesabre.org/doku.php?id=mugshot-docs</url>
+  <url type="translate">https://translations.launchpad.net/mugshot</url>
+
+  <update_contact>bluesabre@ubuntu.com</update_contact>
+
+  <translation type="gettext">mugshot</translation>
+
+  <provides>
+    <binary>mugshot</binary>
+  </provides>
+
+  <releases>
+    <release version="0.4.1" date="2018-08-08">
+      <description>
+        <p>This release includes a number of code quality improvements, bug fixes, and translations. Mugshot can now be built and run in a minimal chroot environment.</p>
+      </description>
+    </release>
+
+    <release version="0.4.0" date="2018-04-11">
+      <description>
+        <p>This stable release adds support for the latest GTK and GStreamer technologies.</p>
+        <p xml:lang="ca">Aquesta versió estable afegeix suport per a les últimes tecnologies de GTK i GStreamer.</p>
+        <p xml:lang="da">Denne stabile udgivelse tilføjer understøttelse af de seneste GTK- og GStreamer-teknologier.</p>
+        <p xml:lang="es">Esta versión estable añade soporte para las últimas tecnologías de GTK y GStreamer.</p>
+        <p xml:lang="lt">Ši stabili laida prideda naujausių GTK ir GStreamer technologijų palaikymą.</p>
+        <p xml:lang="zh_CN">这个稳定版本增加了对最新 GTK 和 GStreamer 技术的支持。</p>
+      </description>
+    </release>
+
+    <release version="0.3.2" date="2016-11-02">
+      <description>
+        <p>This development release restores camera dialog functionality that with recent software versions.</p>
+        <p xml:lang="ca">Aquesta versió de desenvolupament restaura la funcionalitat del diàleg de la càmera amb versions de programari recents.</p>
+        <p xml:lang="da">Denne udviklingsudgivelse gendanner kameradialogfunktionalitet som med nyere softwareversioner.</p>
+        <p xml:lang="es">Esta versión de desarrollo restaura la funcionalidad del diálogo de la cámara con las versiones de software recientes.</p>
+        <p xml:lang="lt">Ši kūrimo laida atkuria kameros dialogo funkcionalumą su paskiausiomis programinės įrangos versijomis.</p>
+        <p xml:lang="sv">Denna utvecklingsversion återställer kameradialogsfunktionalitet med senaste mjukvaruversioner.</p>
+        <p xml:lang="zh_CN">这个开发版本恢复了最近软件版本的相机对话框功能。</p>
+      </description>
+    </release>
+
+    <release version="0.3.1" date="2016-03-31">
+      <description>
+        <p>This development release fixes a large number of bugs from previous releases. User properties that cannot be edited are now restricted to administrative users.</p>
+        <p xml:lang="ca">Aquesta versió de desenvolupament corregeix un gran nombre d'errors de versions anteriors. Les propietats d'usuari que no es poden editar ara estan restringides als usuaris administradors.</p>
+        <p xml:lang="da">Denne udviklingsudgivelse retter et stort antal fejl fra forrige udgivelser. Brugeregenskaber som ikke kan redigeres er nu begrænset til administrative brugere.</p>
+        <p xml:lang="es">Esta versión de desarrollo corrige un gran número de errores de versiones anteriores. Las propiedades de usuario que no se pueden editar ahora están restringidas a los usuarios administradores.</p>
+        <p xml:lang="lt">Ši kūrimo laida ištaiso daugybę ankstesnios laidos klaidų. Naudotojo savybės, kurių negalima redaguoti, dabar yra prieinamos tik naudotojams-administratoriams.</p>
+        <p xml:lang="pl">To wydanie rozwojowe naprawia liczne błędy z poprzednich wydań. Ustawienia użytkownika które nie mogą być edytowane są teraz dostępne wyłącznie dla administratorów.</p>
+        <p xml:lang="sv">Denna utvecklingsversion rättar till ett stort antal fel från föregående versioner. Användaregenskaper som inte kan redigeras är nu begränsade till administrativa användare.</p>
+        <p xml:lang="zh_CN">该开发版本修复了以前版本中的大量错误。 无法编辑的用户属性现在仅限于管理用户。</p>
+      </description>
+    </release>
+
+    <release version="0.3.0" date="2015-09-07">
+      <description>
+        <p>This development release upgrades the camera dialog to use Cheese and Clutter to display and capture the camera feed.</p>
+        <p xml:lang="ca">Aquesta versió de desenvolupament actualitza el diàleg de la càmera per utilitzar Cheese i Clutter per mostrar i capturar la imatge de la càmera.</p>
+        <p xml:lang="da">Denne udviklingsudgivelse opgraderer kameradialogen så Cheese og Clutter bruges til at vise og optage kamera-feedet.</p>
+        <p xml:lang="de">Diese Entwickler-Version verbessert den Kamera-Dialog, der nun Cheese und Clutter für Anzeige und Aufnahme des Kamera Bildes nutzt.</p>
+        <p xml:lang="es">Esta versión de desarrollo actualiza el diálogo de la cámara para usar Cheese y Clutter para mostrar y capturar la imagen de la cámara.</p>
+        <p xml:lang="fr">Cette version de développement améliore le dialogue de la caméra visant à utiliser Cheese et Clutter pour afficher et capturer le retour de la caméra.</p>
+        <p xml:lang="lt">Ši kūrimo laida pagerina, kameros rodymui ir fotografavimui skirtą, kameros dialogą, naudojimui su Cheese ir Clutter.</p>
+        <p xml:lang="nl">Deze ontwikkelversie waardeert de cameradialoog op om Cheese en Clutter te gebruiken voor het vertonen en vastleggen van de camera-invoer.</p>
+        <p xml:lang="pl">To wydanie rozwojowe ulepszą okno kamery, aby używało Cheese i Clutter do wyświetlania i przechwytywania obrazu kamery.</p>
+        <p xml:lang="pt">Esta versão de desenvolvimento atualiza o diálogo da câmera para usar o Cheese e o Clutter para exibir e capturar a alimentação da câmera.</p>
+        <p xml:lang="sk">Táto verzia programu zlepšuje kamerové okno použitím knižníc Cheese a Clutter na zobrazenie obrazu z kamery.</p>
+        <p xml:lang="sv">Denna utvecklingsversion uppgraderar kameradialogen till att använda Cheese och Clutter för att visa och fånga kamerainmatning.</p>
+        <p xml:lang="zh_CN">该开发版本升级相机对话框以使用 Cheese 和 Clutter 来显示和捕捉相机输入。</p>
+      </description>
+    </release>
+
+    <release version="0.2.5" date="2014-09-01">
+      <description>
+        <p>This stable release improves Mugshot functionality for LDAP users, and includes the latest SudoDialog, improving the appearance and usability of the password dialog.</p>
+        <p xml:lang="ca">Aquesta versió estable millora la funcionalitat del Mugshot per als usuaris d'LDAP i inclou l'últim SudoDialog, que millora l'aparença i la facilitat d'ús del diàleg de la contrasenya.</p>
+        <p xml:lang="cs">Tato stabilní verze zlepšuje funkčnost Mugshotu pro uživatele LDAP, a zahrnuje nejnovější SudoDialog, zlepšení vzhledu a použitelnosti dialogu hesla.</p>
+        <p xml:lang="da">Denne stabile udgivelse forbedre Mugshot-funktionaliteter for LDAP-brugere og inkluderer den seneste SudoDialog, som forbedre udseendet af adgangskode-dialogen.</p>
+        <p xml:lang="de">Diese stabile Version verbessert die LDAP-Funktionalität und beinhaltet den aktuellsten SudoDialog, wodurch das Erscheinungsbild und die Nutzerfreundlichkeit des Passwortdialogs verbessert wird.</p>
+        <p xml:lang="el">Αυτή η σταθερή έκδοση βελτιώνει τη λειτουργικότητα του Mugshot για χρήστες LDAP, και περιλαμβάνει το πιο πρόσφατο Παράθυρο Διαλόγου Sudo, βελτιώνοντας την εμφάνιση και τη χρηστικότητα του παραθύρου διαλόγου εισαγωγής συνθηματικού.</p>
+        <p xml:lang="es">Esta versión estable mejora la funcionalidad de Mugshot para los usuarios de LDAP e incluye el último SudoDialog, que mejora la apariencia y la facilidad de uso del diálogo de la contraseña.</p>
+        <p xml:lang="fr">Cette version stable améliore les fonctionnalités de Mugshot pour les utilisateurs LDAP et inclut le dernier SudoDialog, qui améliore l'apparence et l'ergonomie de la fenêtre de dialogue du mot de passe.</p>
+        <p xml:lang="it">Questa release stabile migliore le funzionalità di Mugshot per utenti LDAP ed include il più recente SudoDialog, migliorando l'aspetto e l'usabilità della finestra di immissione password.</p>
+        <p xml:lang="lt">Ši stabili laida patobulina Mugshot funkcionalumą LDAP naudotojams ir įtraukia vėliausią SudoDialogą, patobulindama slaptažodžio dialogo išvaizdą ir patogumą naudoti.</p>
+        <p xml:lang="nl">Deze stabiele versie verbetert de functionaliteit van Mugshot voor LDAP-gebruikers, en bevat de nieuwste SuDoDialog, wat een verbetering is van het uiterlijk en de bruikbaarheid van de wachtwoorddialoog.</p>
+        <p xml:lang="pt">Esta versão estável melhora a funcionalidade do Mugshot para utilizadores LDAP, e inclui o mais recente SudoDialog, melhorando a aparência e usabilidade do diálogo da senha.</p>
+        <p xml:lang="pt_BR">Esta versão estável melhora a funcionalidade Mugshot para usuários LDAP e inclui a mais recente versão do SudoDialog, melhorando a aparência e usabilidade da caixa de diálogo de senha.</p>
+        <p xml:lang="ru">Это стабильный релиз улучшает функциональность Mugshot для пользователей LDAP , и включает в себя последнюю версию SudoDialog , улучшения внешнего вида и диалогового окна ввода пароля.</p>
+        <p xml:lang="sk">Táto stabilná verzia vylepšuje funkcionalitu Mugshotu pre užívateľov LDAP, obsahuje nový SudoDialog, zlepšuje vzhľad a použiteľnosť dialógu na zadanie hesla.</p>
+        <p xml:lang="sv">Denna stabila version förbättrar Mugshots funktionalitet för LDAP-användare, och inkluderar den senaste SudoDialog, som förbättrar utseende och användning av lösenordsdialogen.</p>
+        <p xml:lang="zh_CN">这个稳定的版本改进了 LDAP 用户的 Mugshot 功能，并包含最新的 SudoDialog，改进了密码对话框的外观和可用性。</p>
+      </description>
+    </release>
+
+  </releases>
+
+</component>

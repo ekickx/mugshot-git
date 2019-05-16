@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: mugshot
+Version: 0.4.1
+Summary: lightweight user configuration utility
+Home-page: https://launchpad.net/mugshot
+Author: Sean Davis
+Author-email: smd.seandavis@gmail.com
+License: GPL-3+
+Description: A lightweight user configuration utility. It allows you to easily set profile image and user details for your user profile and any supported applications.
+Platform: UNKNOWN
+Requires: dbus
+Requires: gi
+Requires: gi.repository.Cheese
+Requires: gi.repository.Clutter
+Requires: gi.repository.GLib
+Requires: gi.repository.GObject
+Requires: gi.repository.GdkPixbuf
+Requires: gi.repository.Gio
+Requires: gi.repository.Gst
+Requires: gi.repository.Gtk
+Requires: gi.repository.GtkClutter
+Requires: pexpect
+Provides: mugshot
+Provides: mugshot_lib

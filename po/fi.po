@@ -1,0 +1,252 @@
+# Finnish translation for mugshot
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the mugshot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mugshot\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-04-26 05:42+0000\n"
+"PO-Revision-Date: 2014-09-05 08:16+0000\n"
+"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-04-27 05:47+0000\n"
+"X-Generator: Launchpad (build 18623)\n"
+
+#: ../mugshot.desktop.in.h:1
+msgid "About Me"
+msgstr "Omat tiedot"
+
+#: ../mugshot.desktop.in.h:2
+msgid "Configure your profile image and contact details"
+msgstr "Muuta profiilikuvaasi ja yhteystietojasi"
+
+#: ../data/ui/CameraMugshotDialog.ui.h:1
+msgid "Capture - Mugshot"
+msgstr "Kuvankaappaus - Mugshot"
+
+#: ../data/ui/MugshotWindow.ui.h:1
+msgid "<b>Preview</b>"
+msgstr "<b>Esikatselu</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:2
+msgid "Center"
+msgstr "Keskitetty"
+
+#: ../data/ui/MugshotWindow.ui.h:3
+msgid "Left"
+msgstr "Vasen"
+
+#: ../data/ui/MugshotWindow.ui.h:4
+msgid "Right"
+msgstr "Oikea"
+
+#: ../data/ui/MugshotWindow.ui.h:5
+msgid "<b>Crop</b>"
+msgstr "<b>Rajaus</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:6
+msgid "Select from stock…"
+msgstr "Valitse oletuskuvista..."
+
+#: ../data/ui/MugshotWindow.ui.h:7
+msgid "Capture from camera…"
+msgstr "Kuvankaappaus kamerasta..."
+
+#: ../data/ui/MugshotWindow.ui.h:8
+msgid "Browse…"
+msgstr "Selaa…"
+
+#: ../data/ui/MugshotWindow.ui.h:9 ../mugshot/MugshotWindow.py:566
+msgid "Mugshot"
+msgstr "Valokuva"
+
+#: ../data/ui/MugshotWindow.ui.h:10
+msgid "<b>First Name</b>"
+msgstr "<b>Etunimi</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:11
+msgid "<b>Last Name</b>"
+msgstr "<b>Sukunimi</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:12
+msgid "<b>Initials</b>"
+msgstr "<b>Nimikirjaimet</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:13
+msgid "<b>Home Phone</b>"
+msgstr "<b>Kotipuhelin</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:14
+msgid "<b>Email Address</b>"
+msgstr "<b>Sähköpostiosoite</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:15
+msgid "<b>Office Phone</b>"
+msgstr "<b>Työpuhelin</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:16
+msgid "<b>Fax</b>"
+msgstr "<b>Faksi</b>"
+
+#: ../data/ui/MugshotWindow.ui.h:17
+msgid "Select a photo…"
+msgstr "Valitse kuva..."
+
+#: ../mugshot/__init__.py:36
+msgid "Show debug messages (-vv debugs mugshot_lib also)"
+msgstr ""
+"Näytä virheilmoituset (-vv näyttää myös mugshot_libin virheilmoitukset)"
+
+#. Set the record button to retry, and disable it until the capture
+#. finishes.
+#: ../mugshot/CameraMugshotDialog.py:268
+msgid "Retry"
+msgstr "Yritä uudelleen"
+
+#: ../mugshot/MugshotWindow.py:343
+msgid "Authentication cancelled."
+msgstr "Todennus keskeytetty."
+
+#: ../mugshot/MugshotWindow.py:346
+msgid "Authentication failed."
+msgstr "Tunnistus epäonnistui."
+
+#: ../mugshot/MugshotWindow.py:349
+msgid "An error occurred when saving changes."
+msgstr "Muutoksia tallennettaessa tapahtui virhe."
+
+#: ../mugshot/MugshotWindow.py:351
+msgid "User details were not updated."
+msgstr "Käyttäjätietoja ei päivitetty."
+
+#: ../mugshot/MugshotWindow.py:453
+msgid "Update Pidgin buddy icon?"
+msgstr "Päivitä Pidginin tuttavakuvake?"
+
+#: ../mugshot/MugshotWindow.py:454
+msgid "Would you also like to update your Pidgin buddy icon?"
+msgstr "Haluatko päivittää myös Pidginin tuttavakuvakkeen?"
+
+#: ../mugshot/MugshotWindow.py:567
+msgid "Enter your password to change user details."
+msgstr "Syötä salasanasi muuttaaksesi käyttäjätietojasi."
+
+#: ../mugshot/MugshotWindow.py:569
+msgid ""
+"This is a security measure to prevent unwanted updates\n"
+"to your personal information."
+msgstr ""
+"Tämä on turvallisuustoimenpide, jolla estetään ei-toivotut päivitykset\n"
+"henkilökohtaisiin tietoihisi."
+
+#: ../mugshot/MugshotWindow.py:820
+msgid "Update LibreOffice user details?"
+msgstr "Päivitä LibreOfficen käyttäjätiedot?"
+
+#: ../mugshot/MugshotWindow.py:821
+msgid "Would you also like to update your user details in LibreOffice?"
+msgstr "Haluatko päivittää myös LibreOfficen käyttäjätietosi?"
+
+#: ../mugshot_lib/SudoDialog.py:124
+msgid "Password Required"
+msgstr "Salasana vaaditaan"
+
+#: ../mugshot_lib/SudoDialog.py:161
+msgid "Incorrect password... try again."
+msgstr "Väärä salasana... yritä uudelleen."
+
+#: ../mugshot_lib/SudoDialog.py:171
+msgid "Password:"
+msgstr "Salasana:"
+
+#. Buttons
+#: ../mugshot_lib/SudoDialog.py:182
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: ../mugshot_lib/SudoDialog.py:185
+msgid "OK"
+msgstr "OK"
+
+#: ../mugshot_lib/SudoDialog.py:206
+msgid ""
+"Enter your password to\n"
+"perform administrative tasks."
+msgstr ""
+"Syötä salasanasi\n"
+"suorittaaksesi ylläpidollisia toimia."
+
+#: ../mugshot_lib/SudoDialog.py:208
+#, python-format
+msgid ""
+"The application '%s' lets you\n"
+"modify essential parts of your system."
+msgstr ""
+"Sovellus '%s' sallii sinun\n"
+"muokata järjestelmäsi olennaisia osia."
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:1
+msgid "Lightweight user configuration"
+msgstr "Kevyt käyttäjätietojen muokkain"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:2
+msgid ""
+"Mugshot enables users to easily update personal contact information. With "
+"Mugshot, users are able to:"
+msgstr ""
+"Mugshotin avulla käyttäjät voivat päivittää henkilökohtaisia yhteystietoja "
+"helposti. Mugshotin avulla käyttäjät voivat:"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:3
+msgid ""
+"Set the account photo displayed at login and optionally synchronize this "
+"photo with their Pidgin buddy icon"
+msgstr ""
+"Asettaa tilin valokuvan, joka näytetään kirjautumisikkunassa ja "
+"valinnaisesti synkronoida tämän kuvan Pidginin kaverikuvakkeekseen"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:4
+msgid ""
+"Set account details stored in /etc/passwd (usable with the finger command) "
+"and optionally synchronize with their LibreOffice contact information"
+msgstr ""
+"Asettaa tilin ominaisuuksia, joita säilytetään tiedostossa /etc/passwd "
+"(käytettävissä finger-komennolla) ja valinnaisesti synkronoida nämä tiedot "
+"LibreOfficen tietojen kanssa"
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:5
+msgid ""
+"This stable release adds support for the latest GTK and GStreamer "
+"technologies."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:6
+msgid ""
+"This development release restores camera dialog functionality that with "
+"recent software versions."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:7
+msgid ""
+"This development release fixes a large number of bugs from previous "
+"releases. User properties that cannot be edited are now restricted to "
+"administrative users."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:8
+msgid ""
+"This development release upgrades the camera dialog to use Cheese and "
+"Clutter to display and capture the camera feed."
+msgstr ""
+
+#: ../data/metainfo/mugshot.appdata.xml.in.h:9
+msgid ""
+"This stable release improves Mugshot functionality for LDAP users, and "
+"includes the latest SudoDialog, improving the appearance and usability of "
+"the password dialog."
+msgstr ""
