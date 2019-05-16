@@ -36,6 +36,15 @@ cd mugshot-git
 python3 setup.py build
 sudo python3 setup.py install
 ```
+NOTE: If you get the following error:
+
+(mugshot:22748): GLib-GIO-ERROR **: Settings schema 'apps.mugshot' is not installed
+
+be sure to copy data/glib-2.0/schemas/apps.mugshot.gschema.xml to either:
+/usr/share/glib-2.0/schemas, or
+/usr/local/share/glib-2.0/schemas
+
+and run glib-compile-schemas on that directory before running.
 ## Virtual Environment Install (Development)
 Virtualenv is a tool which allows us to make isolated python environments. It prevents `mugshot` to break your system if something goes wrong
 - First install virtualenv and pip
@@ -71,6 +80,7 @@ pip install pygobject pexpect dbus-python
 python setup.py build
 python setup.py install
 ```
-- To run the program type `mugshot`
-
-**Remember** if you install in virtualenv, you must activate the virtualenv before run the program
+- To run the program type 
+```
+/path_to_virtualenv/bin/mugshot
+```
