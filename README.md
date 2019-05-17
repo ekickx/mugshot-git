@@ -5,6 +5,7 @@ update personal user details. The original repo is at https://launchpad.net/mugs
 # Difference
 For now the difference from recent mugshot(0.4.1) just is:
 - Circle crop
+
 ![circle_crop](https://i.imgur.com/l3v5tMo.png )
 
 # TODO
