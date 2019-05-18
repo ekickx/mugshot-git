@@ -13,6 +13,7 @@ For now the difference from recent mugshot(0.4.1) just is:
 - Add feature to zoom cropped area
 
 # Build and Install
+There will two ways to install this program. System (wide) install and `virtualenv` install
 ### Dependencies: 
 - chfn, 
 - python3-gi, 
@@ -72,7 +73,8 @@ source virtual_env/bin/activate
 ```
 wget https://launchpadlibrarian.net/236120080/python-distutils-extra-2.39.tar.gz
 tar -xvzf python-distutils-extra-2.39.tar.gz
-python python-distutils-extra-2.39/setup.py
+python python-distutils-extra-2.39/setup.py build
+python python-distutils-extra-2.39/setup.py install
 rm -r python-distutils-extra-2.39
 ```
 - Install the rest dependencies
@@ -87,4 +89,16 @@ python setup.py install
 - To run the program type 
 ```
 /path_to_virtualenv/bin/mugshot
+```
+
+# Uninstall
+## System install
+```
+sudo python setup.py install --record files.txt  
+xarg sudo rm -rf < files.txt
+```
+## Virtualenv install
+You just need to remove `virtualenv` folder to uninstall
+```
+rm -r /path_to_virtualenv/
 ```
