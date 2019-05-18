@@ -1109,5 +1109,4 @@ class MugshotWindow(Window):
 
     def on_crop_changed(self, widget, data=None):
         """Update the preview image when crop style is modified."""
-        if widget.get_active():
-            self.on_filechooserdialog_update_preview(self.chooser)
+        self.on_filechooserdialog_update_preview(self.chooser)
