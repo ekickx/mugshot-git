@@ -1,3 +1,6 @@
+# Archived
+Since mugshot repo hase been moved to github, I want to archive this repo. And contibute to that repo instead. .
+
 # About
 Mugshot is a lightweight user configuration utility that allows you to easily 
 update personal user details. The original repo is at https://launchpad.net/mugshot
